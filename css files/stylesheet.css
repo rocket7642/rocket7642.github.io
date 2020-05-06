@@ -16,12 +16,9 @@
     width: 200px;
     height: 150px;   
 }
-<!DOCTYPE html>
-<html>
-<head>
+
 <link rel="stylesheet" type="text/css" href="mystyle.css">
-</head>
-<body>
+
 .dhruvs-section{
     Background-color: green;
 }
@@ -38,6 +35,5 @@ p {
     font-size: 24px;
 }
 
-</body>
-</html>
+
 
