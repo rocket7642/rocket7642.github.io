@@ -16,7 +16,12 @@
     width: 200px;
     height: 150px;   
 }
- 
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
 .dhruvs-section{
     Background-color: green;
 }
@@ -30,3 +35,10 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
 }
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
