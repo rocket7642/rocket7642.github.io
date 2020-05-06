@@ -1,5 +1,5 @@
 .aidans-section{
-    background-image: linear-gradient(#EF5350,#FDD835);
+    background-color: #ffb900;
     border-radius: 15px;
     font-family: customFont1;
 
@@ -8,3 +8,4 @@
     font-family: customFont1;
     src: url(custom-fonts/Komika/KOMTXKBI.ttf)
 }
+
