@@ -35,5 +35,31 @@ p {
     font-size: 24px;
 }
 
+/*Connors section starts below*/
+.backtemp{ 
+    background-color: firebrick;
+    font-weight: bolder;
+    white-space: pre;
+}
 
+h5 {
+    font-size: xx-small;
+}
+h5:hover{
+    color: cornflowerblue;
+}
+h5:active{
+    color: darkgreen;
+}
+
+#change1 {
+    text-indent: 20px;
+    color: chartreuse;
+}
+
+.imageRotate{
+    width:200px;
+    height:200px;
+    transform:rotate(35deg);
+}
 
