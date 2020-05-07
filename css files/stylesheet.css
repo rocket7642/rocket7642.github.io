@@ -36,6 +36,7 @@ p {
 /*Connors section starts below*/
 .backtemp{ 
     background-color: firebrick;
+    border-radius: 10px;
     font-weight: bolder;
     white-space: pre;
 }
