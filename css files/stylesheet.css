@@ -26,6 +26,11 @@ h1 {
   text-align: center;
 }
 
+ol {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
 /*<h1 style="background-color:DodgerBlue;">Hello World</h1>*/
 
 p {
