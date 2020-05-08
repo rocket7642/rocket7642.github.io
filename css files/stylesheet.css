@@ -34,20 +34,13 @@ p {
 }
 
 h2 {
-    p.solid {border-style: solid;}
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
 
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
 
-  
+
+
 
 /*Connors section starts below*/
 .backtemp{ 
