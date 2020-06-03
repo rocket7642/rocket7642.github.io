@@ -82,3 +82,10 @@ h5:active{
     transform:rotate(35deg);
 }
 
+.navcustom {
+    transform: skew(25deg);
+    border: 1px solid black;
+}
+.textnav {
+    transform: skew(-25deg);
+}
