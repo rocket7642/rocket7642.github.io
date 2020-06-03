@@ -89,6 +89,4 @@ h5:active{
 .textnav {
     transform: skew(-25deg) translate(50px);
     color: black;
-    border: 1px solid black;
-
 }
