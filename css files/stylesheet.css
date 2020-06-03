@@ -85,7 +85,12 @@ h5:active{
 .navcustom {
     transform: skew(25deg);
     border: 1px solid black;
+    transform: translate(-50px);
 }
 .textnav {
     transform: skew(-25deg);
+    transform: translate(50px);
+    color: black;
+    border: 1px solid black;
+
 }
