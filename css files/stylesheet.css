@@ -39,7 +39,7 @@ body{
 
 .LBbar{
     background-color: rgb(83, 190, 226);
-    transform: skew(-25deg) translate(-47px);
+    transform: skew(-25deg) translate(-45px);
     border: 1px solid black;
     width: 100%;
 }
