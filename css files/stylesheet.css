@@ -1,79 +1,9 @@
-.aidans-section{
-    background-color: #4285f4;
-    background-image: repeating-linear-gradient(#4285f4, #00a4ef, #4285f4);
-    border-radius: 15px;
-    font-family: customFont1;
-} 
-.aidans-section p{
-    font-family: customFont1;
-}
-.homepage-grid {
-    background-color: #3b5998; 
-    color: white;
-}
-@font-face {
-    font-family: customFont1;
-    src: url(custom-fonts/Komika/KOMTXKBI.ttf)
-}
-.aidans-table {
-    border-radius: 15px;
-    background-color: #00a4ef;
-    color: white;
-    padding: 20px;
-    width: 200px;
-    height: 150px;  
-}
-
-
-.grad1 {
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(red, yellow); /* Standard syntax (must be last) */
-}
-h1 {
-  color: white;
-  text-align: center;
-}
-
-ol {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-}
-
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-}
-
-
-
-
-
-/*Connors section starts below*/
-.backtemp{ 
-    background-color: firebrick;
-    border-radius: 10px;
-    font-weight: bolder;
-    white-space: pre;
-}
-
-h5 {
-    font-size: xx-small;
-}
-h5:hover{
-    color: cornflowerblue;
-}
-h5:active{
-    color: darkgreen;
-}
-
-#change1 {
-    text-indent: 20px;
-    color: chartreuse;
+footer{
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: 1e90ff;
 }
 
 .imageRotate{
