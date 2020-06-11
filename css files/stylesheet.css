@@ -1,9 +1,19 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
 footer{
     border: 1px solid black;
     position: absolute;
     bottom: 0px;
-    right: 0px;
     background-color: 1e90ff;
+    height: 2.5rem;
+    width: 100%;
 }
 
 .imageRotate{
