@@ -5,13 +5,14 @@
   
 #content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
+    background-color: gainsboro;
 }
 
 footer{
     border: 1px solid black;
     position: absolute;
     bottom: 0px;
-    background-color: 1e90ff;
+    background-color: #1e90ff;
     height: 2.5rem;
     width: 100%;
 }
@@ -30,4 +31,8 @@ footer{
     transform: skew(-25deg) translate(50px);
     color: black;
     border-right: 1px solid black;
+}
+
+body{
+    background-color: gray;
 }
