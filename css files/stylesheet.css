@@ -36,3 +36,10 @@ footer{
 body{
     background-color: gray;
 }
+
+.LBbar{
+    background-color: rgb(83, 190, 226);
+    transform: skew(-25deg) translate(-50px);
+    border: 1px solid black;
+    width: 100%;
+}
