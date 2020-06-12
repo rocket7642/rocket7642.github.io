@@ -16,6 +16,9 @@ footer{
     height: 2.5rem;
     width: 100%;
 }
+.footer a{
+    background-color: #1e90ff;
+}
 
 .imageRotate{
     width:200px;
