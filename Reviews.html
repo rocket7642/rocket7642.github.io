@@ -2,7 +2,7 @@
   
 <html>
     <head>
-        <title>Team 7's Webpage</title>
+        <title>Connor's Page - Home</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="/css files/stylesheet.css">
@@ -12,43 +12,56 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <style>
-            body{
-                background-color: rgb(177, 172, 172);
-            }
-            #aidanImage1 {
-                border-radius: 50%;
-            }
-            #aidanImage2 {
-                border-radius: 20px;
-            }
-            
-        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        
-        <h1 style="font-family: OCR A Std, monospace; font-size: 60px; font-style: italic;">Connor Leonie's Webpage</h1>
-        <!--The Nav Bar-->
-        <ul class="nav navcustom justify-content-left" style="background-color: dodgerblue;">
-            <li class="nav-item">
-                <a class="nav-link textnav" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link textnav" href="/Image.html">Image Bank</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link textnav" href="/Calendar.html">Calendar</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link textnav" href="/IntThing.html">Interesting Things</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active textnav" href="/Reviews.html">Reviews</a>
-            </li>
-        </ul>
-
-        <div class="tab-content">
+        <div id="page-container">
             
+        
+            <h1 style="font-family: OCR A Std, monospace; font-size: 60px; font-style: italic;">Connor Leonie's Webpage</h1>
+            <!--The Nav Bar-->
+            <ul class="nav navcustom justify-content-left" style="background-color: dodgerblue;">
+                <li class="nav-item">
+                    <a class="nav-link textnav" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textnav" href="/About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textnav" href="/Image.html">Images</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active textnav" href="/Reviews.html">Reviews</a>
+                </li>
+            </ul>
+            <ul class="LBbar"><info>--Home--</info></ul>
+
+            <div id="content-wrap">
+                <div class="tab-content">
+                    <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
+
+                    <ul id="myUL">
+                        <li><a href="#">Adele</a></li>
+                        <li><a href="#">Agnes</a></li>
+
+                        <li><a href="#">Billy</a></li>
+                        <li><a href="#">Bob</a></li>
+
+                        <li><a href="#">Calvin</a></li>
+                        <li><a href="#">Christina</a></li>
+                        <li><a href="#">Cindy</a></li>
+                    </ul>
+                    
+
+                </div>
+
+                <footer>
+                    <a>Contact Me</a>
+                    <a>|Email : Connor.leonie@gmail.com</a>
+                    <a>|Discord : GabEn#7091</a>
+                </footer>
+            </div>
         </div>
     </body>
 </html>
+
