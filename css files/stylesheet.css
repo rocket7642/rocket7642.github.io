@@ -43,4 +43,7 @@ body{
     border: 1px solid black;
     width: 100%;
 }
+.LBbar info{
+    transform: translate(46px);
+}
 
