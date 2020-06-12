@@ -10,7 +10,6 @@ html, body {
 
 footer{
     border: 1px solid black;
-    position: fixed;
     bottom: 0px;
     background-color: #1e90ff;
     width: 100%;
