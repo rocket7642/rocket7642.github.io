@@ -1,15 +1,15 @@
-#page-container {
+#page-container { /*keeps the page in mind for the footer*/
     position: relative;
     min-height: 100vh;
 }
   
-#content-wrap {
+#content-wrap { /*contains everything besides navbar*/
     padding-bottom: 2.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
 
-footer{
+footer{ /*contact information part*/
     border: 1px solid black;
     position: absolute;
     bottom: 0px;
@@ -18,49 +18,43 @@ footer{
     width: 100%;
     left: 0px;
 }
-.footer a{
+.footer a{ /*troubleshooting an earlier error where it did not change*/
     background-color: #1e90ff;
 }
 
-.imageRotate{
-    width:200px;
-    height:200px;
-    transform:rotate(35deg);
-}
-
-.navcustom {
+.navcustom { /*makes the navbar tilted*/
     transform: skew(25deg) translate(-50px);
     border: 1px solid black;
 }
-.textnav {
+.textnav { /*untilts the tilted text of the navbar*/
     transform: skew(-25deg) translate(50px);
     color: black;
     border-right: 1px solid black;
 }
 
-.active{
+.active{ /*when on a page navbar text changes to this*/
     color: gray;
 }
 
-body{
+body{ /*gives the page its default color*/
     background-color: gray;
 }
 
-.LBbar{
+.LBbar{ /*bar underneath navbar, looks nice*/
     background-color: rgb(83, 190, 226);
     transform: skew(-25deg) translate(-46px);
     border: 1px solid black;
     width: 100%;
 }
-.LBbar info{
+.LBbar info{ /*tilts text*/
     transform: translate(46px);
 }
 
-img{
+img{ /*gives each image a small border*/
     border: 10px ;
 }
 
-#myInput {
+#myInput { /*part of search bar, directly pulled from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_list  as I could not port over my java stuff from my previous java class successfully*/
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
