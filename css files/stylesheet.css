@@ -38,6 +38,10 @@ footer{
     border-right: 1px solid black;
 }
 
+.active{
+    color: gray;
+}
+
 body{
     background-color: gray;
 }
