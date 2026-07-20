@@ -8,9 +8,16 @@ body {
 #core {
   border: 2px solid rgb(14, 13, 13);
   background-color: rgb(240, 239, 239);
-  width: 90vw;
+
   height:100vh;
   justify-content: center;
-  left: 5vw;
+  left: 10vw;
+  right: 10vw;
   top: 5vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Helvetica;
 }
