@@ -1,3 +1,9 @@
+var background = document.getElementById("core");
+
 function activate() {
-    alert("Button clicked!");
+    background.style.backgroundColor = "black";
+}
+
+background.onclick = function change() {
+    background.style.backgroundColor = "lightcoral";
 }
