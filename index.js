@@ -10,3 +10,4 @@ function change() {
 
 background.onclick = change;
 
+// This is a comment
