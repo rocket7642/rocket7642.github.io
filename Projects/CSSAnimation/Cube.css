@@ -1,0 +1,63 @@
+#cube {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    /* Activates 3D space for child elements */
+    transform-style: preserve-3d;
+    /* Initial tilt so you can see the top and side faces */
+    transform: rotateX(-20deg) rotateY(20deg);
+    /* Infinite rotating animation */
+    animation: rotate 5s infinite linear; 
+}
+
+/* Base styles for all faces to reduce repetitive code */
+#cube > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    /* Optional: adds transparency to see through the cube */
+    opacity: 0.85; 
+}
+
+#front {
+    /* Pushes face forward along the Z-axis */
+    transform: rotateY(0deg) translateZ(50px); 
+    background-color: rgb(211, 135, 21);
+}
+#left {
+    /* Rotates left, then pushes out */
+    transform: rotateY(-90deg) translateZ(50px); 
+    background-color: rgb(151, 211, 10);
+}
+#right {
+    /* Rotates right, then pushes out */
+    transform: rotateY(90deg) translateZ(50px); 
+    background-color: rgb(10, 211, 127);
+}
+#back {
+    /* Rotates to the rear, then pushes out */
+    transform: rotateY(180deg) translateZ(50px); 
+    background-color: rgb(21, 135, 211);
+}
+#top {
+    /* Rotates up, then pushes out */
+    transform: rotateX(90deg) translateZ(50px); 
+    background-color: rgb(211, 65, 21);
+}
+#bottom {
+    /* Rotates down, then pushes out */
+    transform: rotateX(-90deg) translateZ(50px); 
+    background-color: rgb(157, 21, 211);
+}
+
+/* The missing animation rule that spins the cube */
+@keyframes rotate {
+    from {
+        transform: rotateX(-20deg) rotateY(0deg);
+    }
+    to {
+        transform: rotateX(-20deg) rotateY(360deg);
+    }
+}
