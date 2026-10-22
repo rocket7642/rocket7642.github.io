@@ -1,0 +1,25 @@
+body{
+    background: black;
+}
+
+.joke-text {
+background: black;
+color: white;
+text-align: center;
+font-size: 2rem;
+margin: 0;
+}
+.flex-container {
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: black;
+}
+.flex-container > h1 {
+color: white;
+}
+.flex-container > img {
+width: 25rem;
+height: 25rem;
+padding-bottom: 3rem;
+}
